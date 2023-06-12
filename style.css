@@ -1,0 +1,55 @@
+
+
+/*  HEADER  */
+ .header{
+    background-color: #0A2647;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    margin:  0px;
+    padding: 0px;
+ }
+
+
+ .cover-pic{
+   object-fit: contain;
+   
+ }
+
+ .halign{
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 30px;
+ }
+
+ .palign{
+   font-size: 18px;
+   text-align: left;
+   padding-left: 150px;
+   padding-right: 150px;
+   margin-bottom: 0px;
+ }
+
+ .hr{
+   border-color: black;
+   margin-top: 30px;
+ }
+
+ .logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+ }
+
+
+ @media (max-width: 600px){
+  .palign{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+  }
+ }
